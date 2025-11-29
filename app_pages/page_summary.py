@@ -37,8 +37,9 @@ def page_summary_body():
         f"crops. \n"
         f"\n\n"
         f"**Project Dataset**\n"
-        f"*  "
-        f""
+        f"* The available dataset contains 4,208 images of cherry leaves, \n"
+        f"2,104 of which are healthly and 2,104 of which contain a powdery \n"
+        f"mildew. \n" 
         f".")
 
     st.write(
@@ -47,8 +48,10 @@ def page_summary_body():
     
 
     st.success(
-        f"The project has 2 business requirements:\n"
-        f"* 1 - The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew. "
-        f"\n"
-        f"* 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew. "
+        f"The project has 2 business requirements: \n"
+        f"* 1 - The client is interested in conducting a study to visually "
+        f"differentiate a cherry leaf that is healthy from one that contains \n"
+        f"powdery mildew. \n"
+        f"* 2 - The client is interested in predicting if a cherry leaf is \n"
+        f"healthy or contains powdery mildew. \n"
         )
