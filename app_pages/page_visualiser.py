@@ -36,8 +36,8 @@ def page_visualiser_body():
         st.image(avg_healthy, caption='Healthy Leaf - Average and Variability')
         st.write("---")
 
-    if st.checkbox("Differences between average powdery mildew and average "
-                   "healthy leaves"):
+    if st.checkbox("Differences between average powdery mildew cherry leaves "
+                   "and average healthy cherry leaves"):
         diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
         st.warning(

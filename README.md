@@ -3,7 +3,7 @@
 ## Dataset Content
 
 - The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace.
-- The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
+- The dataset contains over 4,000 images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
 
 ## Business Requirements
 
@@ -14,7 +14,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 - 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 - 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
-## Hypothesis and how to validate?
+## Hypothesis and Validation
 
 - List here your project hypothesis(es) and how you envision validating it (them).
 
@@ -28,12 +28,25 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Dashboard Design
 
-- List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-- Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+#### Summary page
+- Contains General Infomration about the client's background, infomration about the dataset, a link to the README file and the business requirements.
+  
+#### Cherry Leaves Visualiser page
+- Shows the difference between average and variability image
+- Shows the differences between average powdery mildew cherry leaves and average healthy cherry leaves
+- Provides an image montage
 
-## Unfixed Bugs
+#### Powdery Mildew Detection page
+- Provides a link to download a set of health and powdery mildew cherry leaves
+- Provides a user interface with a file uploader widget to allow the user to apply any image of a cherry leaf and give a prediction as to whther the leaf is healthy or has powdery mildew on it.
+- When the result (healthy or powdery mildew) is povided, a table with the image name and prediction results, and a download button to download the table is also provided.
 
-- You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+#### Hypothesis page
+- A page indicatuing the hypothesis and explanation of validation.
+
+#### ML Performance Metrics
+- A technical page displaying the model performance.
+
 
 ## PEP8 Checks
 
@@ -80,6 +93,16 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ![app_PEP8](assets/imagesforreadme/10_app.png)
 
+## Testing
+
+| Test  | Page  | Action  | Result  | Pass/Fail  |
+|---|---|---|---|---|
+| 1  |  Summary | Test  | Outcome  | Pass  |
+| 2  |  Cherry Leaves Visulaiser | Test | Outcome  | Pass  |
+| 3  |  Powdery Mildew Detection | Test | Outcome  |  Pass |
+| 4  |  Hypothesis | Test  | Outcome  | Pass  |
+| 5  |  ML Performance | Test | Outcome  | Pass  |
+
 ## Deployment
 
 ### Render
@@ -96,23 +119,23 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Main Data Analysis and Machine Learning Libraries
 
 - Here, you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+- NumPy -
+- Pandas -
+- Matplotlib -
+- Seaborn -
+- Plotly -
+- Pillow -
+- Streamlit - used for the app interface which is deployed to Render
+- Joblib - 
+- Scikit-learn - used for predictive analysis
+- TensorFlow and Keras - used to train the model
+
 
 ## Credits
 
-- In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism.
-- You can break the credits section up into Content and Media, depending on what you have included in your project.
-
-### Content
-
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
+- The majority of code used for this project was taken from the Code Institue Malaria Detection Walkthrough project and edited accordingly.
 
 ## Acknowledgements (optional)
 
-- Thank the people who provided support throughout this project.
+- Tutor: Niel
+- Tutor: Tom
