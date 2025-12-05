@@ -27,31 +27,32 @@ def page_summary_body():
         f"located in multipe farms across the country. As a result, this\n"
         f"manual process is not scalable due to time spent in the manual \n"
         f"process inspeaction. \n"
-        f"* To save time in this process, the IT team suggested an ML system \n"
-        f"that is capable of detecting instantly, using a tree leaf image, \n"
+        f"* To save time in this process, the IT team suggested an ML system\n"
+        f" that is capable of detecting instantly, using a tree leaf image,\n"
         f"if it is healthy or has powdery mildew. A similar manual process \n"
         f"is in place for other crops for detecting pests, and if this \n"
-        f"initiative is successful, there is a realistic chance to replicate \n"
-        f"this project to all other crops. The dataset is a collection of \n"
+        f"initiative is successful, there is a realistic chance to replicate\n"
+        f" this project to all other crops. The dataset is a collection of \n"
         f"cherry leaf images provided by Farmy & Foods, taken from their \n"
         f"crops. \n"
         f"\n\n"
         f"**Project Dataset**\n"
         f"* The available dataset contains 4,208 images of cherry leaves, \n"
         f"2,104 of which are healthly and 2,104 of which contain a powdery \n"
-        f"mildew. \n" 
+        f"mildew. \n"
         f".")
 
     st.write(
         f"* For additional information, please visit and **read** the "
         f"[Project README file]"
-        f"(https://github.com/JohnStuartPhil/cherryleaves/blob/main/README.md)")
+        f'(https://github.com/JohnStuartPhil/cherryleaves/blob/main/README.md)'
+    )
 
     st.success(
         f"The project has 2 business requirements: \n"
         f"* 1 - The client is interested in conducting a study to visually "
-        f"differentiate a cherry leaf that is healthy from one that contains \n"
-        f"powdery mildew. \n"
+        f"differentiate a cherry leaf that is healthy from one that contains\n"
+        f" powdery mildew. \n"
         f"* 2 - The client is interested in predicting if a cherry leaf is \n"
         f"healthy or contains powdery mildew. \n"
         )
