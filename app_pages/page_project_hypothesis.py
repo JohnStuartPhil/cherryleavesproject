@@ -17,7 +17,7 @@ def page_project_hypothesis_body():
     )
 
     st.warning(
-        f"**Warning** \n\n"
+        f"**Please be aware** \n\n"
         f"* There are visible differences between average infected and \n "
         f"healthy images."
     )
@@ -36,6 +36,6 @@ def page_project_hypothesis_body():
     )
 
     st.warning(
-        f"**Warning** \n\n"
+        f"**Please be aware** \n\n"
         f"* Prediction accuracy 98%."
     )
