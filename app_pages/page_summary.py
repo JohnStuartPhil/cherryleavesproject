@@ -44,8 +44,8 @@ def page_summary_body():
 
     st.write(
         f"* For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/JohnStuartPhil/milestone-project-mildew-detection-in-cherry-leaves/blob/main/README.md).")
-    
+        f"[Project README file]"
+        f"(https://github.com/JohnStuartPhil/cherryleaves/blob/main/README.md)")
 
     st.success(
         f"The project has 2 business requirements: \n"
