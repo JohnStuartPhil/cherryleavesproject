@@ -32,18 +32,15 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 - List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
 
-### Fitting of the model 
-
-The model is a normal fit that gives a **99%** level of accuracy
-
-![model curve](assets/imagesforreadme/normalfitmodel.png)
 
 ## Machine Learning (ML) Business Case
 
-- The client requires an app that provides a prediction of whether a cherry leaf is healthy or whether is has a pwodery mildew. 
+- As part of the 2nd business requirement, the client requires an app that provides a prediction of whether a cherry leaf is healthy or whether is has a pwodery mildew. 
 - A Machine Learning (ML) model was therefore required to be fitted in order to acheive this requirement. 
-- As there were only two types of cherry leaves, a binary classifier model featuring an a binary_crossentropy loss and an Adam optimiser was selected.
-- The model gave a normal fit and retunred a 99% level of accuracy, 2% more than the clients minimum requiremnet of 97%. 
+- As there were only two types of cherry leaves, a binary classifier model featuring a binary_crossentropy loss and an Adam optimiser was selected.
+- The model gave a normal fit and retunred a **99%** level of accuracy, 2% more than the clients minimum requiremnet of 97%. Please see the model learning curve below:
+
+![model curve](assets/imagesforreadme/normalfitmodel.png)
 
 ## Dashboard Design
 
