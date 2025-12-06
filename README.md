@@ -19,8 +19,8 @@ To save time in this process, the IT team suggested an ML system that detects in
 ### Relating to business requirement 1
 
 #### Hypothesis
--We are already aware that there is a visable difference between a healthy cherry leaf and a cherry leaf with a powdery mildew on it.
--In order to investigate between a healthy cherry leaf and a cherry leaf with a powdery mildew, an average image study shall be conducted.
+- We are already aware that there is a visable difference between a healthy cherry leaf and a cherry leaf with a powdery mildew on it.
+- In order to investigate between a healthy cherry leaf and a cherry leaf with a powdery mildew, an average image study shall be conducted.
 
 ### Relating to usiness requirement 2
 
