@@ -97,11 +97,12 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 | Test  | Page  | Action  | Result  | Pass/Fail  |
 |---|---|---|---|---|
-| 1  |  Summary | Test  | Outcome  | Pass  |
-| 2  |  Cherry Leaves Visulaiser | Test | Outcome  | Pass  |
-| 3  |  Powdery Mildew Detection | Test | Outcome  |  Pass |
-| 4  |  Hypothesis | Test  | Outcome  | Pass  |
-| 5  |  ML Performance | Test | Outcome  | Pass  |
+| 1  |  Initial page | Click on radio buttons | Outcome  | Pass  |
+| 2  |  Summary | Test  | Outcome  | Pass  |
+| 3  |  Cherry Leaves Visulaiser | Test | Outcome  | Pass  |
+| 4  |  Powdery Mildew Detection | Test | Outcome  |  Pass |
+| 5  |  Hypothesis | Test  | Outcome  | Pass  |
+| 6  |  ML Performance | Test | Outcome  | Pass  |
 
 ## Deployment
 
