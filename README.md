@@ -132,7 +132,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Epics and User Stories
 
-Please see the [Milestones](https://github.com/JohnStuartPhil/cherryleaves/milestones) to see each epic which are further broken down into User Stories.
+Please see the [Milestones](https://github.com/JohnStuartPhil/cherryleaves/milestones) section to see the epics which are further broken down into User Stories.
 
 ## Credits
 
