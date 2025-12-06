@@ -130,6 +130,9 @@ To save time in this process, the IT team suggested an ML system that detects in
 - Scikit-learn - used for predictive analysis
 - TensorFlow and Keras - used to train the model
 
+## Epics and User Stories
+
+Please see the [Milestones](https://github.com/JohnStuartPhil/cherryleaves/milestones) to see each epic which are further broken down into User Stories.
 
 ## Credits
 
