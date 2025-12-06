@@ -136,7 +136,7 @@ Please see the [Milestones](https://github.com/JohnStuartPhil/cherryleaves/miles
 
 ## Credits
 
-- The majority of code used for this project was taken from the Code Institue Malaria Detection Walkthrough project and edited accordingly.
+- The majority of code used for this project was taken from the [Code Institue](https://codeinstitute.net) [Malaria Detection Walkthrough project](https://malaria-predictor.onrender.com) and edited accordingly.
 
 ## Acknowledgements (optional)
 
