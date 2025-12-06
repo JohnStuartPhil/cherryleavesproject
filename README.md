@@ -16,7 +16,17 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Hypothesis and Validation
 
-- List here your project hypothesis(es) and how you envision validating it (them).
+### Relating to business requirement 1
+
+#### Hypothesis
+-We are already aware that there is a visable difference between a healthy cherry leaf and a cherry leaf with a powdery mildew on it.
+-In order to investigate between a healthy cherry leaf and a cherry leaf with a powdery mildew, an average image study shall be conducted.
+
+### Relating to usiness requirement 2
+
+#### Hypothesis
+- It is requirement that when an image of a cherry leaf is uploaded to the site that is predicts if the cherry leaf is healthy or has powdery mildew with an an accuracy of at least 97%
+- In order to carry this out, a model shall be trained using the images and calculating the accuracy
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
