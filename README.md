@@ -126,16 +126,21 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ![app_PEP8](assets/imagesforreadme/10_app.png)
 
-## Testing
+## Manual Testing
 
 | Test  | Page  | Action  | Result  | Pass/Fail  |
 |---|---|---|---|---|
-| 1  |  Initial page | Click on radio buttons | Outcome  | Pass  |
-| 2  |  Summary | Test  | Outcome  | Pass  |
-| 3  |  Cherry Leaves Visulaiser | Test | Outcome  | Pass  |
-| 4  |  Powdery Mildew Detection | Test | Outcome  |  Pass |
-| 5  |  Hypothesis | Test  | Outcome  | Pass  |
-| 6  |  ML Performance | Test | Outcome  | Pass  |
+| 1  |  Initial page | Click on radio buttons | When clicked on, each radio button navigates the user to the required page  | Pass  |
+| 2  |  Summary | Can the Summary page be viewed?  | The summary page can be viewed  | Pass  |
+| 3  |  Summary | Can the Cherry Leaves Visulaiser page be viewed?  | The Cherry Leaves Visulaiser page can be viewed  | Pass  |
+| 4  |  Cherry Leaves Visulaiser | Click on the Difference between Average and Variabilty image | Difference between Average and Variabilty images appear  | Pass  |
+| 5  |  Cherry Leaves Visulaiser | Click on the Differences between Average powdery mildew cherry leaves and Average Healthy Cherry leaves | Average and Variability for both healthy and powdery mildew cherry leaves images appear  | Pass  |
+| 6  |  Cherry Leaves Visulaiser | Click on Image Montage for Healthy leaves | A montage of healthy leaves appear  | Pass  |
+| 7  |  Cherry Leaves Visulaiser | Click on Image Montage for Powdery Mildew leaves | A montage of powdery mildew leaves appear  | Pass  |
+| 8  |  Cherry Leaves Visulaiser | Test | Outcome  | Pass  |
+| 9  |  Powdery Mildew Detection | Test | Outcome  |  Pass |
+|   |  Hypothesis | Can the Hypothesis page be viewed?  | The Hypothesis page can be viewed  | Pass  |
+|   |  ML Performance Metrics | Can the ML Performance Metrics page be viewed? | The ML Performance Metrics page can be viewed  | Pass  |
 
 ## Deployment
 
