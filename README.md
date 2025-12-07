@@ -28,7 +28,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 #### Hypothesis
 - While it is fairly easy to look at one image of a cherry leaf to see if it is healthy or has powdery mildew, examining multiple images may not be so staright forward. We can therefore facilitate the ability to upload images and for a predition to be made as to whether the leaves are healthy or have a powdery mildew on them by dragging and dropping the images to a widget.
-- 
+
 #### Validation
 - The predition of whether a cherry leaf is healthy or has powdery mildew is provided with a 99% level of accuracy.
 
@@ -43,7 +43,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 #### Business Requirement 2
 - Business requiremnt 2 was a more technical requirement with the client wanting a function to predict whether a cherry leaf was healthy or had powdery mildew. This involved taking the images and putting them through a model which had to be trained to recognise when an image that it was presented with could make a prediction as to whether it was a healthy cherry leaf or a powdery mildew leaf.
 - The result was a user interface with a file uploader widget. A convenient link to the kaggle dataset is provided and the user can select any leaf (helathy or powder mildew), drag and drop the file where indicated and a prediction on the leaf in question shall be made. 
-- The prediction made, clearly states if it is belived to be healthy or pwodery mildew, displays the leaf selected, provides a graph showing the percentage of the chances of the leaf being either helthly or with powdery mildew and the option to donwload a reposrt of the anaylsys in Microsft Excel. The model was trained with an accuracy rate of 99%.
+- The prediction made, clearly states if it is belived to be healthy or pwodery mildew, displays the leaf selected, provides a graph showing the percentage of the chances of the leaf being either helthly or with powdery mildew and the option to donwload a report of the anaylsys in Microsft Excel. The model was trained with an accuracy rate of 99%.
 - Multiple images of cherry leaves can be uploaded.
 
 
@@ -75,7 +75,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 - When the result (healthy or powdery mildew) is povided, a table with the image name and prediction results, and a download button to download the table is also provided.
 
 #### Hypothesis page
-- A page indicatuing the hypothesis and explanation of validation.
+- A page indicatuing the hypothesis and explanation of validation for each business requirement.
 
 #### ML Performance Metrics
 - A technical page displaying the model performance.
@@ -130,17 +130,21 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 | Test  | Page  | Action  | Result  | Pass/Fail  |
 |---|---|---|---|---|
-| 1  |  Initial page | Click on radio buttons | When clicked on, each radio button navigates the user to the required page  | Pass  |
+| 1  |  Initial page when app loaded (Summary) | Click on radio buttons | When clicked on, each radio button navigates the user to the required page  | Pass  |
 | 2  |  Summary | Can the Summary page be viewed?  | The summary page can be viewed  | Pass  |
 | 3  |  Summary | Can the Cherry Leaves Visulaiser page be viewed?  | The Cherry Leaves Visulaiser page can be viewed  | Pass  |
 | 4  |  Cherry Leaves Visulaiser | Click on the Difference between Average and Variabilty image | Difference between Average and Variabilty images appear  | Pass  |
 | 5  |  Cherry Leaves Visulaiser | Click on the Differences between Average powdery mildew cherry leaves and Average Healthy Cherry leaves | Average and Variability for both healthy and powdery mildew cherry leaves images appear  | Pass  |
-| 6  |  Cherry Leaves Visulaiser | Click on Image Montage for Healthy leaves | A montage of healthy leaves appear  | Pass  |
-| 7  |  Cherry Leaves Visulaiser | Click on Image Montage for Powdery Mildew leaves | A montage of powdery mildew leaves appear  | Pass  |
-| 8  |  Cherry Leaves Visulaiser | Test | Outcome  | Pass  |
-| 9  |  Powdery Mildew Detection | Test | Outcome  |  Pass |
-|   |  Hypothesis | Can the Hypothesis page be viewed?  | The Hypothesis page can be viewed  | Pass  |
-|   |  ML Performance Metrics | Can the ML Performance Metrics page be viewed? | The ML Performance Metrics page can be viewed  | Pass  |
+| 6  |  Cherry Leaves Visulaiser | Click on Create Montage for Healthy leaves | A montage of healthy leaves appear (can be slow in doing so) | Pass  |
+| 7  |  Cherry Leaves Visulaiser | Click on Create Montage for Powdery Mildew leaves | A montage of powdery mildew leaves appear (can be slow in doing so) | Pass  |
+| 8  |  Cherry Leaves Visulaiser | Click on Create Montage again | Image montage refreshed with a new set of images  | Pass  |
+| 9  |  Powdery Mildew Detection | Can the Powdery Mildew Detection page be viewed?  | The Powdery Mildew Detection page can be viewed  |  Pass |
+| 10  |  Powdery Mildew Detection | Click on the section to download images from Kaggle  | Takes the user to the Kaggle webpage  |  Pass |
+| 11  |  Powdery Mildew Detection | Click on Browse Files  | Takes the user to their folders in their own computer  |  Pass |
+| 12  |  Powdery Mildew Detection | Drag and drop and images onto the widget  | A prediction of whether the images are healthy or with powdery mildew is produced, a small graph is also produced and a link to donwload the report on Excel apears   |  Pass |
+| 13  |  Powdery Mildew Detection | Click on Download Report after prediction has been made  | Takes the user to the report on Excel   |  Pass |
+| 14  |  Hypothesis | Can the Hypothesis page be viewed?  | The Hypothesis page can be viewed  | Pass  |
+| 15  |  ML Performance Metrics | Can the ML Performance Metrics page be viewed? | The ML Performance Metrics page can be viewed  | Pass  |
 
 ## Deployment
 
@@ -151,19 +155,19 @@ To save time in this process, the IT team suggested an ML system that detects in
 - The project was deployed to Render using the following steps.
 
 1. Delete Procfile (if applicable)
-2. Log in to Render and create an App
+2. Log in to Render
 3. Connect GitHub
 4. Click on +New
 5. Select Web Service
 6. Select your Repository from GitHub to connect
 7. In Language, type in Python 3
 8. In Branch, type in Main
-9. Select your nearest Region
+9. Select your nearest Region (in this case Frankfurt)
 10. In Build command, type in pip install -r requirements.txt && ./setup.sh
 11. In Start Command, type in streamlit run app.py
 12. Click on Deply Web Service
 13. The deployment process should happen smoothly if all deployment files are fully functional.
-14. Click the link provided by Render to access your App.
+14. Click the link provided by Render in the deployment screen to access your App.
 
 ## Main Data Analysis and Machine Learning Libraries
 
@@ -177,7 +181,13 @@ Please see the [Milestones](https://github.com/JohnStuartPhil/cherryleaves/miles
 
 - The majority of code used for this project was taken from the [Code Institue](https://codeinstitute.net) [Malaria Detection Walkthrough project](https://malaria-predictor.onrender.com) and edited accordingly.
 
-## Acknowledgements (optional)
+## Miscellaneous Information
+
+- At the bottom of the Modelling and Evaluating note book, it states that the Kernel crashed while excecuting the current or previous cell. This is somewhat misleading. I can confirm that the kernel crashed shortly after the final cell had been run and the push to Github (and onto Render) had already been made. 
+
+![kernalcrashmessage](assets/imagesforreadme/kernelcrash.png)
+
+## Thanks to
 
 - Tutor: Niel
 - Tutor: Tom
