@@ -43,7 +43,7 @@ def page_visualiser_body():
         diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
         st.warning(
-          f"**Conclusion** \n\n"  
+          f"**Conclusion** \n\n"
           f"* The average healthy leaf is distinctively green while the \n"
           f"average powdery mildew leaf resembles that of a sliced \n"
           f"cucumber. The white over the green on the average powdery \n"
