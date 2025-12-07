@@ -14,7 +14,7 @@ from src.machine_learning.predictive_analysis import (
 def page_detector_body():
     st.info(
         f"* The client is interested in telling whether a given cherry leaf "
-        f"has powdery mildew or is healthy."
+        f"has powdery mildew or is healthy. Business requirement 2."
         )
 
     st.write(

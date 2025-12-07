@@ -15,7 +15,7 @@ def page_visualiser_body():
     st.info(
         f"* The client is interested in having a study that visually "
         f"differentiates between a healthy cherry leaf from a cherry leaf "
-        f"that contains powdery mildew.")
+        f"that contains powdery mildew. Business Requirement 1.")
 
     version = 'v1'
     if st.checkbox("Difference between average and variability image"):
@@ -25,11 +25,12 @@ def page_visualiser_body():
         avg_healthy = plt.imread(f"outputs/{version}/avg_var_healthy.png")
 
         st.warning(
-          f"* We notice the average and variability images did not show "
-          f"patterns where we could intuitively differentiate one from "
-          f"another. "
-          f"However, a small difference in the colour pigment of the average "
-          f"images is seen for both labels.")
+          f"* The average and variabilty images are distinct from each \n"
+          f"other. The average image clearly identifies the green of the \n"
+          f"leaves while the variability image is harder to see, it can \n"
+          f"however be seen that the patterns of average and variability \n"
+          f"images match. \n\n"
+          )
 
         st.image(avg_powdery_mildew, caption='Powdery Mildew Leaf - Average '
                  'and Variability')
@@ -41,9 +42,13 @@ def page_visualiser_body():
         diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
         st.warning(
-          f"* We notice this study didn't show "
-          f"patterns where we could intuitively differentiate one from "
-          f"another.")
+          f"* The average healthy leaf is distinctively green while the \n"
+          f"average powdery mildew leaf resembles that of a sliced \n"
+          f"cucumber. The white over the green on the average powdery \n"
+          f"mildew image clearly represents the powdery mildew. \n\n"
+          f"* The difference image of the two types of leaves is too dark \n"
+          f"to provide any real insight. "
+          )
         st.image(
              diff_between_avgs, caption='Difference between average images')
 

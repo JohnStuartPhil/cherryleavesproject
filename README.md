@@ -29,7 +29,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 #### Hypothesis
 - It is requirement that when an image of a cherry leaf is uploaded to the site that is predicts if the cherry leaf is healthy or has powdery mildew with an an accuracy of at least 97%
 #### Validation
-- In order to carry this out, a model shall be trained using the images and calculating the accuracy
+- In order to carry this out, a model shall be trained using the images and calculating the accuracy with accuracy rate of at least 97%.
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
@@ -51,7 +51,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 - As part of the 2nd business requirement, the client requires an app that provides a prediction of whether a cherry leaf is healthy or whether is has a pwodery mildew.
 - A Machine Learning (ML) model was therefore required to be fitted in order to acheive this requirement. 
 - As there were only two types of cherry leaves, a binary classifier model featuring a binary_crossentropy loss and an Adam optimiser was selected.
-- The model gave a normal fit and retunred a **99%** level of accuracy, 2% more than the clients minimum requiremnet of 97%. Please see the model learning curve below:
+- The model gave a normal fit and retunred a **99%** level of accuracy, 2% more than the clients minimum requiremnet of 97%. Please see the model learning curve below taken from the ML Performance Metrics page of the app:
 
 ![model curve](assets/imagesforreadme/normalfitmodel.png)
 
