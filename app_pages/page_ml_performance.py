@@ -14,6 +14,15 @@ def page_ml_performance_metrics():
         f"outputs/{version}/labels_distribution.png")
     st.image(labels_distribution, caption='Labels Distribution on Train, '
              'Validation and Test Sets')
+    st.info(
+        f"**Summary** \n\n"
+        f"* Train - powdery mildew: 1,472 images \n"
+        f"* Train - healthy: 1,472 images \n"
+        f"* Validation - powdery mildew: 210 images \n"
+        f"* Validation - healthy: 210 images \n"
+        f"* Test - powdery mildew: 422 images \n"
+        f"* Test - healthy: 242 images \n"
+    )
     st.write("---")
 
     st.write("### Model History")
@@ -29,3 +38,11 @@ def page_ml_performance_metrics():
     st.write("### Generalised Performance on Test Set")
     st.dataframe(pd.DataFrame(load_test_evaluation(version),
                               index=['Loss', 'Accuracy']))
+    st.write("---")
+
+    st.info(
+        f"**Summary** \n\n"
+        f"* The learning curves shown above indicate that the model is a "
+        f"normal fit and that the accuracy is at 99% thus meeting Business "
+        f"Requirement 2."
+        )

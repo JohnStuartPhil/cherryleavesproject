@@ -127,6 +127,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Render
 
+- Due to slugsize limitations on Heroku, this project is hosted by [Render](https://render.com/)
 - The App live link is: [Cherry Leaves Mildew Detection](https://jsp-mildew-detection-in-cherry-leaves.onrender.com)
 - The project was deployed to Render using the following steps.
 

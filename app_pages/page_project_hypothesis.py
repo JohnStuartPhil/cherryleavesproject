@@ -16,12 +16,6 @@ def page_project_hypothesis_body():
         f"* text here. \n"
     )
 
-    st.warning(
-        f"**Please be aware** \n\n"
-        f"* There are visible differences between average infected and \n "
-        f"healthy images."
-    )
-
     st.write("### Business Requirement 2: Hypothesis and Validation")
 
     st.info(
@@ -33,9 +27,4 @@ def page_project_hypothesis_body():
     st.success(
         f"**Validation** \n\n"
         f"* text here. \n"
-    )
-
-    st.warning(
-        f"**Please be aware** \n\n"
-        f"* Prediction accuracy 98%."
     )
