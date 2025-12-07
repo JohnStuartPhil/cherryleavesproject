@@ -21,7 +21,11 @@ def page_ml_performance_metrics():
         f"* Validation - powdery mildew: 210 images \n"
         f"* Validation - healthy: 210 images \n"
         f"* Test - powdery mildew: 422 images \n"
-        f"* Test - healthy: 242 images \n"
+        f"* Test - healthy: 422 images \n\n"
+        f"**Split as follows:** \n\n"
+        f"* Train sets: 70% \n"
+        f"* Valiadtion sets: 10% \n"
+        f"* Test sets: 20% "
     )
     st.write("---")
 
