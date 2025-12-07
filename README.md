@@ -174,7 +174,18 @@ There are 5 pages in total which can be accessed using radio buttons from the me
 
 ## Main Data Analysis and Machine Learning Libraries
 
-- Here, you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- plotly
+- Pillow
+- streamlit
+- joblib
+- scikit-learn
+- tensorflow-cpu
+- keras
+
 
 ## Epics and User Stories
 

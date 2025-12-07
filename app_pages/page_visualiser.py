@@ -25,6 +25,7 @@ def page_visualiser_body():
         avg_healthy = plt.imread(f"outputs/{version}/avg_var_healthy.png")
 
         st.warning(
+          f"**Conclusion** \n\n"
           f"* The average and variabilty images are distinct from each \n"
           f"other. The average image clearly identifies the green of the \n"
           f"leaves while the variability image is harder to see, it can \n"
@@ -42,6 +43,7 @@ def page_visualiser_body():
         diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
         st.warning(
+          f"**Conclusion** \n\n"  
           f"* The average healthy leaf is distinctively green while the \n"
           f"average powdery mildew leaf resembles that of a sliced \n"
           f"cucumber. The white over the green on the average powdery \n"
