@@ -2,7 +2,6 @@
 
 Powdery Mildew Detector is a Data Analytics app that is used for specific requirements by a fictional company.
 
-![amiresponsive](assets/imagesforreadme/amiresponsive.png)
 
 ## Dataset Content
 
